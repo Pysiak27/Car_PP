@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="contact.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Car Parts Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="engine.html">Engine</a></li>
+                <li><a href="body.html">Body</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="wheels.html">Wheels</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <p>Please fill out the form below. Fields marked with * are required:</p>
+            <form id="contact-form" action="mailto:your-email@example.com" method="post" enctype="multipart/form-data">
+                <label for="name">Name*:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                
+                <label for="interests">Your Interests:</label><br>
+                <input type="checkbox" id="cars" name="interests" value="Cars">
+                <label for="cars">Cars</label><br>
+                <input type="checkbox" id="tech" name="interests" value="Technology">
+                <label for="tech">Technology</label><br>
+                <input type="checkbox" id="sports" name="interests" value="Sports">
+                <label for="sports">Sports</label><br><br>
+                
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br><br>
+                
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5"></textarea><br><br>
+                
+                <label for="resume">Upload a File:</label>
+                <input type="file" id="resume" name="resume"><br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Created by: Bartosz Pysiak</p>
+        <p>&copy; 2024 Car Parts Website</p>
+    </footer>
+</body>
+</html>

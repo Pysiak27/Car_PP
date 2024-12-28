@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Parts Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Car Parts Website</h1>
+        <p>Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="engine.html">Engine</a></li>
+                <li><a href="body.html">Body</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="wheels.html">Wheels</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to the Car Parts Website</h2>
+            <p>Explore various parts of a car, including the engine, body, interior, and wheels.</p>
+        </section>
+        <section>
+            <h2>Car Animation</h2>
+            <button id="start-button">Start the Engine</button>
+            <canvas id="car-canvas" width="1000" height="350" style="border: 1px solid #000;"></canvas>
+        </section>
+        <script defer src="car-animation.js"></script>
+    </main>
+    
+    <footer>
+        <p>Created by: Bartosz Pysiak</p>
+        <p id="visit-counter">Visits to this page: 0</p>
+        <p>&copy; 2024 Car Parts Website</p>
+    </footer>
+    <script defer src="visit-counter.js"></script>
+</body>
+</html>
+
+

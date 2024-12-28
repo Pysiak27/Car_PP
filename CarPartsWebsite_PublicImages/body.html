@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Car Parts Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="engine.html">Engine</a></li>
+                <li><a href="body.html">Body</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="wheels.html">Wheels</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <section>
+                <h2>Interactive Car Map</h2>
+                <p>Click on a part of the car to learn more:</p>
+                <img src="images/car-map.jpg" usemap="#car-map" alt="Car Diagram" style="max-width: 100%;">
+                <map name="car-map">
+                    <!-- Example clickable areas -->
+                    <area shape="rect" coords="50,150,300,250" href="engine.html" alt="Engine">
+                    <area shape="rect" coords="350,150,600,250" href="wheels.html" alt="Wheels">
+                    <area shape="rect" coords="50,300,600,400" href="body.html" alt="Body">
+                </map>
+            </section>
+        </section>
+    </main>    
+    <footer>
+        <p>Created by: Bartosz Pysiak</p>
+        <p id="visit-counter">Visits to this page: 0</p>
+        <p>&copy; 2024 Car Parts Website</p>
+    </footer>
+    <script defer src="visit-counter.js"></script>
+</body>
+</html>
+
+
